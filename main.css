@@ -3,15 +3,37 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+ background-color: rgb(166, 240, 240);
+}
 
 header {
-    background-color: rgb(5, 85, 85);
-    padding: 8px;
+    background-color: rgb(12, 66, 66);
+    padding: 16px;
     color: #fff;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px;
+}
+
+header h2 {
+    font-size: 25px;
+}
+
+header li{
+    display: inline;
+    font: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 16px;
 }
 
 ul li {
     display: inline;
+    font-size: 18px;
 }
 
 ul li a {
@@ -23,18 +45,63 @@ ul li a {
     max-width: 1280px;
     width: 100%;
     margin: 10px auto;
+    /*background-color: rgb(12, 66, 66);*/
 }
 
 .container img {
-    max-width: 500px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    max-width: 350px;
+    margin-top: 30px;
 }
 
 nav ul li {
     margin-right: 8px;
 }
 
-#contact-methods .container {
+section p {
+ display: block;
+}
+
+section p img {
+    width: 100px;
+    display: flex;
+}
+
+section {
+    padding: 16px;
+}
+
+/**/
+form input,
+form textarea,
+form button {
     display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+    border-radius: 8px;
+}
+
+form textarea {
+    resize: none;
+    /*usado para impedir que a caixa de texto se expanda */
+    height: 80px;
+    border-color: ;
+}
+
+form button:hover {
+    background-color: rgb(5, 85, 85);
+    color: #fff;
+    cursor: pointer;
+}
+ 
+/* rgb(10, 184, 184)*/
+
+form button {
+    border: none;
+    background-color: #fff;
+    border-radius: 8px;
+}
+
+footer {
+    background-color:rgb(5, 85, 85) ;
 }
