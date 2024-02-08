@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: rgb(5, 85, 85);
+    padding: 8px;
+    color: #fff;
+}
+
+ul li {
+    display: inline;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.container{
+    max-width: 1280px;
+    width: 100%;
+    margin: 10px auto;
+}
+
+.container img {
+    max-width: 500px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+nav ul li {
+    margin-right: 8px;
+}
+
+#contact-methods .container {
+    display: block;
+}
