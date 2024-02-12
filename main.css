@@ -49,12 +49,21 @@ ul li a {
 }
 
 .container img {
-    max-width: 350px;
+    max-width: 650px;
     margin-top: 30px;
 }
 
 nav ul li {
     margin-right: 8px;
+}
+
+/* Estilos para a imagem ao lado do texto */
+#about .container {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    /* Agora a imagem será a primeira coluna e o texto a segunda */
+    gap: 20px;
+    align-items: center;
 }
 
 section p {
