@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
- background-color: rgb(166, 240, 240);
+ /*background-color: rgb(166, 240, 240);*/
 }
 
 header {
@@ -70,6 +70,23 @@ section {
     padding: 16px;
 }
 
+#contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+#contact form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+
 /**/
 form input,
 form textarea,
@@ -78,14 +95,17 @@ form button {
     width: 320px;
     margin-bottom: 8px;
     padding: 8px;
-    border-radius: 8px;
+    border-radius: 5px;
+
+
 }
 
 form textarea {
     resize: none;
     /*usado para impedir que a caixa de texto se expanda */
     height: 80px;
-    border-color: ;
+    border-color: rgb(5, 85, 85);
+    color: #fff;;
 }
 
 form button:hover {
@@ -98,10 +118,10 @@ form button:hover {
 
 form button {
     border: none;
-    background-color: #fff;
-    border-radius: 8px;
+    background-color: rgb(22, 172, 139);
+    border-radius: 5px;
 }
 
 footer {
-    background-color:rgb(5, 85, 85) ;
+    background-color:rgb(207, 226, 226) ;
 }
