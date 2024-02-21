@@ -13,27 +13,22 @@ header {
     color: #fff;
 }
 
-header .container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 16px;
-}
-
 header h2 {
     font-size: 25px;
 }
 
-header li{
-    display: inline;
-    font: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    margin-left: 16px;
+nav ul{
+    display: flex;
+    justify-content: flex-end; /*alinhar conteudo do conteiner no fim do conteiner a direita*/
 }
 
-ul li {
+nav ul li {
     display: inline;
     font-size: 18px;
+    text-align: right;
+    font: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding: 8px;
 }
 
 ul li a {
@@ -46,6 +41,7 @@ ul li a {
     width: 100%;
     margin: 10px auto;
     /*background-color: rgb(12, 66, 66);*/
+    font-size: 18px;
 }
 
 .container img {
@@ -53,13 +49,9 @@ ul li a {
     margin-top: 30px;
 }
 
-nav ul li {
-    margin-right: 8px;
-}
-
 /* Estilos para a imagem ao lado do texto */
 #about .container {
-    display: grid;
+    display: flex;
     grid-template-columns: auto 1fr;
     /* Agora a imagem será a primeira coluna e o texto a segunda */
     gap: 20px;
@@ -134,3 +126,4 @@ form button {
 footer {
     background-color:rgb(207, 226, 226) ;
 }
+
